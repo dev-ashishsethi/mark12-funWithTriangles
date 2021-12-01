@@ -8,29 +8,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <nav class="navbar">
+        <a href="isTriangle.html"  class="home">Fun with Triangles</a>
+        <div class="flexing">
+            <a href="isTriangle.html"  class="links">Is Triangle Valid?</a>
+            <a href="quiz.html" class="links">Play Quiz</a>
+            <a href="hypotenuse.html" class="links">Calculate hypotenuse</a>
+            <a href="areaOfTriangle.html" class="links">Calculate area</a>
+        </div>
+        
+    </nav>
+    <div class="container">
     <h1>Triangle Quiz</h1>
     <form action="" id="quizForm">
         
         <p>What will be the third angle for the triangle where first two angles are 45 and 45?</p>
         
-        <label for="option" name="question1"><input type="radio" name="question1"  value="45">45</label>
+        <label for="option" name="question1"><input class="inputOptions" type="radio" name="question1"  value="45">45</label>
   
-        <label for="option" name="question1"><input type="radio" name="question1"  value="90">90</label>
+        <label for="option" name="question1"><input class="inputOptions" type="radio" name="question1"  value="90">90</label>
   
-        <label for="option" name="question1"><input type="radio" name="question1"  value="180">180</label>
+        <label for="option" name="question1"><input class="inputOptions" type="radio" name="question1"  value="180">180</label>
 
         <p>If a triangle has an angle of 90 degrees, what is it called?</p>
         
-        <label for="option" name="question2"><input type="radio" name="question2"  value="Acute">Acute</label>
+        <label for="option" name="question2"><input class="inputOptions" type="radio" name="question2"  value="Acute">Acute</label>
 
-        <label for="option" name="question2"><input type="radio" name="question2"  value="Obtuse">Obtuse</label>
+        <label for="option" name="question2"><input class="inputOptions" type="radio" name="question2"  value="Obtuse">Obtuse</label>
 
-        <label for="option" name="question2"><input type="radio" name="question2"  value="Right Angled">Right Angled</label>
+        <label for="option" name="question2"><input class="inputOptions" type="radio" name="question2"  value="Right Angled">Right Angled</label>
     </form>
 
     <button id="btnSubmit">Submit</button>
 
     <p id="result"></p>
+    </div>
 </body>
 <script src="quiz.js"></script>
 </html>
